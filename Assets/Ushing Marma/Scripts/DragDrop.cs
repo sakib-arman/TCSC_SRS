@@ -10,12 +10,19 @@ public class DragDrop : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHan
     private CanvasGroup canvasGroup;
 
     public GameObject Deactive_Cube;
-    public GameObject Active_Cube;
     public GameObject Deactive_Image;
 
     public GameObject Transform_Active_Cube;
     private Vector3 mOffset;
     private float mZCoord;
+
+    private Vector3 resetPosition;
+    public GameObject cube1;
+
+    private void Start()
+    {
+        resetPosition = Transform_Active_Cube.transform.localPosition;
+    }
 
     private void Awake()
     {
@@ -24,18 +31,18 @@ public class DragDrop : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHan
     }
     public void OnBeginDrag(PointerEventData eventData)
     {
-        canvasGroup.alpha = 0f;
         Transform_Active_Cube.SetActive(true);
 
-        mZCoord = Camera.main.WorldToScreenPoint(Transform_Active_Cube.gameObject.transform.position).z;
-        mOffset = Transform_Active_Cube.gameObject.transform.position - getmoueWoeldPos();
+        mZCoord = Camera.main.WorldToScreenPoint(Transform_Active_Cube.transform.position).z;
+        mOffset = Transform_Active_Cube.transform.position - getmoueWoeldPos();
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
 
-        Transform_Active_Cube.gameObject.transform.position = getmoueWoeldPos() + mOffset;
+        rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
+        Transform_Active_Cube.transform.position = getmoueWoeldPos() + mOffset;
+        canvasGroup.alpha = 0f;
     }
     private Vector3 getmoueWoeldPos()
     {
@@ -45,9 +52,20 @@ public class DragDrop : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHan
     }
     public void OnEndDrag(PointerEventData eventData)
     {
-        Active_Cube.SetActive(true);
-        Deactive_Cube.SetActive(false);
-        Transform_Active_Cube.SetActive(false);
+        if (Mathf.Abs(Transform_Active_Cube.transform.localPosition.x - cube1.transform.localPosition.x) <= .1f &&
+            Transform_Active_Cube.transform.localPosition.y - cube1.transform.localPosition.y <= .1f)
+        {
+            Transform_Active_Cube.transform.localPosition = new Vector3(cube1.transform.localPosition.x, cube1.transform.localPosition.y, cube1.transform.localPosition.z);
+            canvasGroup.alpha = 0f;
+            Deactive_Cube.SetActive(false);
+            
+        }
+        else
+        {
+            Transform_Active_Cube.transform.localPosition = new Vector3(resetPosition.x, resetPosition.y, resetPosition.z);
+            rectTransform.anchoredPosition = new Vector3(resetPosition.x, resetPosition.y, resetPosition.z);
+            canvasGroup.alpha = 1f;          
+        }
     }
 
 }
