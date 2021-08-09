@@ -510,7 +510,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &565062602
 GameObject:
@@ -655,7 +655,7 @@ RectTransform:
   m_Children:
   - {fileID: 1332027443}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -784,7 +784,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8071450657741140647, guid: 973131c9e003d95408445e2bfdc64a41, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8071450657741140647, guid: 973131c9e003d95408445e2bfdc64a41, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1541,7 +1541,7 @@ GameObject:
   - component: {fileID: 1333044894}
   - component: {fileID: 1333044893}
   - component: {fileID: 1333044892}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1623,7 +1623,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1419691509
 GameObject:
@@ -1721,7 +1721,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1012541416567776873, guid: 5d4565e8bdffaf54199c4a1ed81c7cfd, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1012541416567776873, guid: 5d4565e8bdffaf54199c4a1ed81c7cfd, type: 3}
       propertyPath: m_LocalPosition.x
