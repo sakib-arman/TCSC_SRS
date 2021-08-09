@@ -1,0 +1,482 @@
+fileFormatVersion: 2
+guid: 7c4c82d4b93db6f499e7df24353a28e1
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #1
+    second: {fileID: 2100000, guid: 7b4cb45b6b0320c4ab26da8b9ba4deb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #10
+    second: {fileID: 2100000, guid: d1476bd06eeb3dc4e9c2f024380a86fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #11
+    second: {fileID: 2100000, guid: 17f89e5312f7a004eb77322da72ac101, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #12
+    second: {fileID: 2100000, guid: 96ce4c3e43405d04dbabf07a1b72197c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #13
+    second: {fileID: 2100000, guid: 7926a0e7ca7f88d43b55e68133e0981a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #14
+    second: {fileID: 2100000, guid: ef42ba3e7f876324790694e74e0c3574, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #15
+    second: {fileID: 2100000, guid: 19cd80fa182ee6f4fb6f73c1df1da585, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #16
+    second: {fileID: 2100000, guid: 8db60134d5b84e8459f0542a9af90633, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #17
+    second: {fileID: 2100000, guid: f4773a3e6fe25c445b1c4f6fd8f00f0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #18
+    second: {fileID: 2100000, guid: f814d5578ba9ca14d934ac902f771703, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #19
+    second: {fileID: 2100000, guid: 1f4f4c7fd7013de4881fe33212c4e189, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #2
+    second: {fileID: 2100000, guid: e53ff5ec2b25d9447b5c30b9a3541653, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #20
+    second: {fileID: 2100000, guid: ef3febf7dd265eb44a2726f559ce4c6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #21
+    second: {fileID: 2100000, guid: 0a68e9e03ac64794f9493f9aa11fbdc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #22
+    second: {fileID: 2100000, guid: c03447359bc31ce43b789b1344ca52f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #23
+    second: {fileID: 2100000, guid: ecc40f7df1c4cb84097a23c5b24b5e76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #24
+    second: {fileID: 2100000, guid: d0bd748bc9acac34388f2b6a10434c03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #25
+    second: {fileID: 2100000, guid: 8d22e862b62185d4a8062ab0d56309e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #26
+    second: {fileID: 2100000, guid: 6f2df287900c8c941b85e94a2f03a200, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #27
+    second: {fileID: 2100000, guid: 001339c108509d947b8da24e35c2a84c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #28
+    second: {fileID: 2100000, guid: 27b7a335cf5dda540b1bb874240a8f84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #29
+    second: {fileID: 2100000, guid: 6d19ad654069d36489231347ba93e53b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #3
+    second: {fileID: 2100000, guid: c4782a1168e79fe4fa7bc26f111dee37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #30
+    second: {fileID: 2100000, guid: b0bd919957baa0b4a94dece117709dd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #31
+    second: {fileID: 2100000, guid: 9fc552ffe2b2e9c43a8f6af4341ee7d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #32
+    second: {fileID: 2100000, guid: 9e85e87b06c4c2840856fe337cf09e33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #33
+    second: {fileID: 2100000, guid: 603b4f8cd5d0cb944ba13f769b5c1d18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #34
+    second: {fileID: 2100000, guid: 4c3022168cb789d44809584562a3db9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #35
+    second: {fileID: 2100000, guid: 19d69dc2ce6e3a94bb7593f085d30c52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #36
+    second: {fileID: 2100000, guid: d94aa300fd8b0e64cba6b68101629659, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #37
+    second: {fileID: 2100000, guid: a6ad704664977ef4086c7e7270f52b4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #38
+    second: {fileID: 2100000, guid: 46409423ea186c64b87588ca80c075be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #39
+    second: {fileID: 2100000, guid: 823e4ec57d813474bada282a28c9022a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #4
+    second: {fileID: 2100000, guid: b5faeec8ca7e6c9478670ea77a63b195, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #40
+    second: {fileID: 2100000, guid: e78cf719759ad7341a37e2acdce03e07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #41
+    second: {fileID: 2100000, guid: c9bb9b79022aa96468674c29f1b45c98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #42
+    second: {fileID: 2100000, guid: 929f35bfc81c4a94dab21b59f69f5b23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #43
+    second: {fileID: 2100000, guid: 81563b3fefc80544fbf9a0c937c4d5a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #44
+    second: {fileID: 2100000, guid: 8e9ff11822c1ad0478c9d6e518442217, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #45
+    second: {fileID: 2100000, guid: d0e233fae3c1e2847bdace74971a77af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #46
+    second: {fileID: 2100000, guid: b6d0d5b9347eb0846bf0cf36ab4f4aa0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #47
+    second: {fileID: 2100000, guid: 4dc799e426ede4343b627c0613168699, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #48
+    second: {fileID: 2100000, guid: b53528f0570e95647aaee5fc6355d846, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #49
+    second: {fileID: 2100000, guid: 9687036f0837ba9459eb7bdf866119d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #5
+    second: {fileID: 2100000, guid: 1a17e03aef5347c4a9ac1fbfd2afab8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #50
+    second: {fileID: 2100000, guid: 1678520a362f1904780e3c2425a86a0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #51
+    second: {fileID: 2100000, guid: e7ba1f64d9f0d9a4a8f50ea90b2c93ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #52
+    second: {fileID: 2100000, guid: 41d13b59820e92f4c86d7d29a6fa86fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #53
+    second: {fileID: 2100000, guid: 5e2ba722fea89c847ae16da5eaa8e3b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #54
+    second: {fileID: 2100000, guid: 6f0ea0ad2d93f874e9b9e80c2a4d5b5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #55
+    second: {fileID: 2100000, guid: dec5952275164894a9a35b3c0ea787a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #56
+    second: {fileID: 2100000, guid: e2d6321b5b13135429cecfa90e1fcf6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #57
+    second: {fileID: 2100000, guid: b8d95dbc95c41ea4daa92e981c7d9891, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #58
+    second: {fileID: 2100000, guid: ef7c7e40e5585a44e917bcfad00694cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #59
+    second: {fileID: 2100000, guid: bfa0f060a0fae5c4f961a187ee896c86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #60
+    second: {fileID: 2100000, guid: f71ae9d787eaef447bc7bf869f18fdbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #61
+    second: {fileID: 2100000, guid: dc58b277af857154799d4e80ce0c0d36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #7
+    second: {fileID: 2100000, guid: f5abff0b73c1795459d1d1ef303d211b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #8
+    second: {fileID: 2100000, guid: 36808755f1c3da640bdc96cd26b6d2fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrett2090 Main body.024 #9
+    second: {fileID: 2100000, guid: c8fc75a00abcf3142b831737dcc5bb26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal Rough White #15
+    second: {fileID: 2100000, guid: af573db9592b7914eb29bf1ee93bed29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape_IndexedFaceSet.011
+    second: {fileID: 2100000, guid: 43c5850c984556746b619c323d2bf815, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape_IndexedFaceSet.035
+    second: {fileID: 2100000, guid: 28e661e0bffc2104db4340ab812f8cc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape_IndexedFaceSet.035 #1
+    second: {fileID: 2100000, guid: 36ab6ec873343a541a6a04c00eb5a314, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape_IndexedFaceSet.066
+    second: {fileID: 2100000, guid: 14fc5dddfd42a0b448564ef2c5a135cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape_IndexedFaceSet.066 #1
+    second: {fileID: 2100000, guid: ea341c63a21338f4586f499f78c72a75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape_IndexedFaceSet.066 #2
+    second: {fileID: 2100000, guid: b08e3ebeb934fc047a759319262d2bf2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape_IndexedFaceSet.066 #3
+    second: {fileID: 2100000, guid: 0859db27b8e5f104eb9aa6d9c46f43b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape_IndexedFaceSet.066 #4
+    second: {fileID: 2100000, guid: c014c26e959543745be0966e32428664, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape_IndexedFaceSet.154
+    second: {fileID: 2100000, guid: 31e07bf37a6aa3444a5305e0c86a3891, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape_IndexedFaceSet.155
+    second: {fileID: 2100000, guid: 86db23c864c6cc14eb029065d9460065, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape_IndexedFaceSet.156
+    second: {fileID: 2100000, guid: a3f90fe7f93ea104685a7a3db36fac8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape_IndexedFaceSet.157
+    second: {fileID: 2100000, guid: de016caf28a059c438bce487f8b85d3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape_IndexedFaceSet.158
+    second: {fileID: 2100000, guid: e0079477f97dbbf42aaa6fcccc9377e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape_IndexedFaceSet.173
+    second: {fileID: 2100000, guid: 7fa317dbb7f79e44a9941b6fa2af353a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shape_IndexedFaceSet.174
+    second: {fileID: 2100000, guid: 48a4e373eeb5a6741bcd95eec24325a1, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
