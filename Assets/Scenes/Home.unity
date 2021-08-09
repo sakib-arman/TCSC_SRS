@@ -42731,7 +42731,7 @@ MonoBehaviour:
   nonGuidedScreen: {fileID: 483593225}
   EWScreen: {fileID: 1936557818}
   systemTypePanel: {fileID: 369271729}
-  narrativesPanel: {fileID: 0}
+  narrativesPanel: {fileID: 2029842270}
   AnalyzerPanel: {fileID: 1455274446}
   MDFpanel: {fileID: 1475984199}
   jammerPanel: {fileID: 1604727518}
