@@ -2454,10 +2454,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 275e21dcb1ecb2842854dca250ab7c77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  barrett: {fileID: 0}
   ButtonID: 46
+  button: {fileID: 0}
   delay: 3
   isMultiClickable: 0
   DoubleClickTimeout: 0.2
+  clickEnable: 1
+  clickCounter: 1
+  isProtectedMode: 0
+  endTime: 0
+  isButtonDown: 0
 --- !u!64 &197374999
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4339,10 +4346,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 275e21dcb1ecb2842854dca250ab7c77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  barrett: {fileID: 0}
   ButtonID: 38
+  button: {fileID: 0}
   delay: 3
   isMultiClickable: 0
   DoubleClickTimeout: 0.2
+  clickEnable: 1
+  clickCounter: 1
+  isProtectedMode: 0
+  endTime: 0
+  isButtonDown: 0
 --- !u!64 &311859459
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4620,10 +4634,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 275e21dcb1ecb2842854dca250ab7c77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  barrett: {fileID: 0}
   ButtonID: 49
+  button: {fileID: 0}
   delay: 3
   isMultiClickable: 0
   DoubleClickTimeout: 0.2
+  clickEnable: 1
+  clickCounter: 1
+  isProtectedMode: 0
+  endTime: 0
+  isButtonDown: 0
 --- !u!64 &324083063
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5802,10 +5823,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 275e21dcb1ecb2842854dca250ab7c77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  barrett: {fileID: 0}
   ButtonID: 38
+  button: {fileID: 0}
   delay: 3
   isMultiClickable: 0
   DoubleClickTimeout: 0.2
+  clickEnable: 1
+  clickCounter: 1
+  isProtectedMode: 0
+  endTime: 0
+  isButtonDown: 0
 --- !u!64 &387973916
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6843,10 +6871,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 275e21dcb1ecb2842854dca250ab7c77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  barrett: {fileID: 0}
   ButtonID: 46
+  button: {fileID: 0}
   delay: 3
   isMultiClickable: 0
   DoubleClickTimeout: 0.2
+  clickEnable: 1
+  clickCounter: 1
+  isProtectedMode: 0
+  endTime: 0
+  isButtonDown: 0
 --- !u!64 &479892339
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8548,10 +8583,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 275e21dcb1ecb2842854dca250ab7c77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  barrett: {fileID: 0}
   ButtonID: 38
+  button: {fileID: 0}
   delay: 3
   isMultiClickable: 0
   DoubleClickTimeout: 0.2
+  clickEnable: 1
+  clickCounter: 1
+  isProtectedMode: 0
+  endTime: 0
+  isButtonDown: 0
 --- !u!64 &654622009
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11192,10 +11234,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 275e21dcb1ecb2842854dca250ab7c77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  barrett: {fileID: 0}
   ButtonID: 38
+  button: {fileID: 0}
   delay: 3
   isMultiClickable: 0
   DoubleClickTimeout: 0.2
+  clickEnable: 1
+  clickCounter: 1
+  isProtectedMode: 0
+  endTime: 0
+  isButtonDown: 0
 --- !u!64 &874346804
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16106,10 +16155,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 275e21dcb1ecb2842854dca250ab7c77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  barrett: {fileID: 0}
   ButtonID: 46
+  button: {fileID: 0}
   delay: 3
   isMultiClickable: 0
   DoubleClickTimeout: 0.2
+  clickEnable: 1
+  clickCounter: 1
+  isProtectedMode: 0
+  endTime: 0
+  isButtonDown: 0
 --- !u!64 &1266304336
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16367,10 +16423,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 275e21dcb1ecb2842854dca250ab7c77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  barrett: {fileID: 0}
   ButtonID: 38
+  button: {fileID: 0}
   delay: 3
   isMultiClickable: 0
   DoubleClickTimeout: 0.2
+  clickEnable: 1
+  clickCounter: 1
+  isProtectedMode: 0
+  endTime: 0
+  isButtonDown: 0
 --- !u!64 &1287058495
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17119,10 +17182,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 275e21dcb1ecb2842854dca250ab7c77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  barrett: {fileID: 0}
   ButtonID: 38
+  button: {fileID: 0}
   delay: 3
   isMultiClickable: 0
   DoubleClickTimeout: 0.2
+  clickEnable: 1
+  clickCounter: 1
+  isProtectedMode: 0
+  endTime: 0
+  isButtonDown: 0
 --- !u!64 &1316527795
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18654,10 +18724,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 275e21dcb1ecb2842854dca250ab7c77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  barrett: {fileID: 0}
   ButtonID: 38
+  button: {fileID: 0}
   delay: 3
   isMultiClickable: 0
   DoubleClickTimeout: 0.2
+  clickEnable: 1
+  clickCounter: 1
+  isProtectedMode: 0
+  endTime: 0
+  isButtonDown: 0
 --- !u!64 &1477258995
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19921,10 +19998,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 275e21dcb1ecb2842854dca250ab7c77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  barrett: {fileID: 0}
   ButtonID: 49
+  button: {fileID: 0}
   delay: 3
   isMultiClickable: 0
   DoubleClickTimeout: 0.2
+  clickEnable: 1
+  clickCounter: 1
+  isProtectedMode: 0
+  endTime: 0
+  isButtonDown: 0
 --- !u!64 &1577983173
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20339,10 +20423,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 275e21dcb1ecb2842854dca250ab7c77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  barrett: {fileID: 0}
   ButtonID: 49
+  button: {fileID: 0}
   delay: 3
   isMultiClickable: 0
   DoubleClickTimeout: 0.2
+  clickEnable: 1
+  clickCounter: 1
+  isProtectedMode: 0
+  endTime: 0
+  isButtonDown: 0
 --- !u!64 &1612447049
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22052,10 +22143,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 275e21dcb1ecb2842854dca250ab7c77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  barrett: {fileID: 0}
   ButtonID: 38
+  button: {fileID: 0}
   delay: 3
   isMultiClickable: 0
   DoubleClickTimeout: 0.2
+  clickEnable: 1
+  clickCounter: 1
+  isProtectedMode: 0
+  endTime: 0
+  isButtonDown: 0
 --- !u!64 &1708900771
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26017,10 +26115,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 275e21dcb1ecb2842854dca250ab7c77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  barrett: {fileID: 0}
   ButtonID: 49
+  button: {fileID: 0}
   delay: 3
   isMultiClickable: 0
   DoubleClickTimeout: 0.2
+  clickEnable: 1
+  clickCounter: 1
+  isProtectedMode: 0
+  endTime: 0
+  isButtonDown: 0
 --- !u!64 &2037062779
 MeshCollider:
   m_ObjectHideFlags: 0
