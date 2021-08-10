@@ -28,7 +28,8 @@ public class DragObj : MonoBehaviour
                 Logger.Log("Can Drag");
                 isDrag = true;
                 //Assign the object that needs to be dragged to the object that the ray collides with
-                currentTransform = hitinfo.transform;
+                //currentTransform = hitinfo.transform;
+                currentTransform = hitinfo.transform.root;
                 //Convert the current object's world coordinates to screen coordinates
                 screenPos = Camera.main.WorldToScreenPoint(currentTransform.position);
                 //Convert the mouse's screen coordinates to world space coordinates, and then calculate the offset between them and the object to be dragged
@@ -44,7 +45,6 @@ public class DragObj : MonoBehaviour
         {
             if (isDrag == true)
             {
-
                 var currentScreenPos = new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPos.z);
                 //Mouse's screen space coordinates are converted to world coordinates, plus the offset
                 var currentPos = Camera.main.ScreenToWorldPoint(currentScreenPos) + offset;
@@ -53,8 +53,31 @@ public class DragObj : MonoBehaviour
         }
         if (Input.GetMouseButtonUp(0))
         {
-            isDrag = false;
-            currentTransform = null;
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hitinfo;
+            if (Physics.Raycast(ray, out hitinfo, 10000f, _groundLayerMask))
+            {
+                if (Vector3.Distance(transform.position, hitinfo.transform.position) > 0.4f || transform.position.y < hitinfo.transform.position.y)
+                {
+                    isDrag = false;
+                    Destroy(currentTransform.gameObject);
+                    currentTransform = null;
+                    return;
+                }
+                var currentScreenPos = new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPos.z);
+                //Mouse's screen space coordinates are converted to world coordinates, plus the offset
+                var currentPos = Camera.main.ScreenToWorldPoint(currentScreenPos) + offset;
+                currentTransform.position = currentPos;
+                isDrag = false;
+                currentTransform = null;
+            }
+            else
+            {
+                isDrag = false;
+                Destroy(currentTransform.gameObject);
+                currentTransform = null;
+            }
         }
     }
+    public LayerMask _groundLayerMask;
 }

@@ -9,6 +9,7 @@ public class SelectImage : MonoBehaviour, IPointerDownHandler
     public GameObject inistatePrefab;
     //Instantiated object
     private GameObject inistateObj;
+    public float scaleFactor = 0.6f;
 
     // Use this for initialization
     void Start()
@@ -16,7 +17,7 @@ public class SelectImage : MonoBehaviour, IPointerDownHandler
         if (inistatePrefab == null) return;
         //Instantiate prefab
         inistateObj = Instantiate(inistatePrefab) as GameObject;
-        inistateObj.transform.localScale *= 0.2f; //new add
+        inistateObj.transform.localScale *= scaleFactor; //new add
         inistateObj.SetActive(false);
     }
     //Realize the mouse down interface
