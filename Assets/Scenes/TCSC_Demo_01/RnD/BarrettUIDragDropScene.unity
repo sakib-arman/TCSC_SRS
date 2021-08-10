@@ -258,6 +258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inistatePrefab: {fileID: 8071450657741140646, guid: 973131c9e003d95408445e2bfdc64a41, type: 3}
+  scaleFactor: 0.6
 --- !u!225 &9448471
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -510,7 +511,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &565062602
 GameObject:
@@ -655,7 +656,7 @@ RectTransform:
   m_Children:
   - {fileID: 1332027443}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -684,6 +685,9 @@ MonoBehaviour:
     m_Bits: 512
   currentTransform: {fileID: 0}
   isDrag: 0
+  _groundLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &830668374
 GameObject:
   m_ObjectHideFlags: 0
@@ -780,7 +784,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8071450657741140646, guid: 973131c9e003d95408445e2bfdc64a41, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8071450657741140647, guid: 973131c9e003d95408445e2bfdc64a41, type: 3}
       propertyPath: m_RootOrder
@@ -897,7 +901,7 @@ Transform:
   m_Children:
   - {fileID: 7440360}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1091576546
 GameObject:
@@ -1623,7 +1627,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1419691509
 GameObject:
