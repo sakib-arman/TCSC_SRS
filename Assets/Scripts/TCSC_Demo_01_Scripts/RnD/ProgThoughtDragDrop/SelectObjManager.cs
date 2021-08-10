@@ -93,7 +93,7 @@ public class SelectObjManager : MonoBehaviour
             isPlaceSuccess = false;
         }
         currentPlaceObj.transform.position = point + new Vector3(0, _YOffset, 0);
-        currentPlaceObj.transform.localEulerAngles = new Vector3(0, 60, 0);
+        currentPlaceObj.transform.localEulerAngles = new Vector3(0, -150, 0);
     }
     /// <summary>
     ///Make an object at a specified position
@@ -104,6 +104,7 @@ public class SelectObjManager : MonoBehaviour
 
         obj.transform.position = currentPlaceObj.transform.position;
         obj.transform.localEulerAngles = currentPlaceObj.transform.localEulerAngles;
+        obj.transform.localScale = Vector3.one;
         obj.transform.localScale *= _scaleFactor;
         //Change the Layer of this object to Drag for subsequent drag detection
         obj.layer = LayerMask.NameToLayer("Draggable");
