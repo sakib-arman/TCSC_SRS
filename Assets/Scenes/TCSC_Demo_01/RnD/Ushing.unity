@@ -11518,7 +11518,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &898683461
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23431,6 +23431,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1692289169}
   m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1812063308
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1812063310}
+  - component: {fileID: 1812063309}
+  m_Layer: 0
+  m_Name: HoverEffects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1812063309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812063308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28e7e5010321a654cad4e93a1790af03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectionTag: Selectable
+  highlightMaterial: {fileID: 2100000, guid: 0b2eb86b87b82b44fbd0f8670c5c6927, type: 2}
+  defaultMaterils: {fileID: 2100000, guid: 05cafe069a0d05b43a2cfccf4ad823a5, type: 2}
+--- !u!4 &1812063310
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812063308}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1821023104
 GameObject:
@@ -62380,9 +62426,17 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8071450657717784432, guid: 973131c9e003d95408445e2bfdc64a41, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.071
+      objectReference: {fileID: 0}
     - target: {fileID: 8071450657717784435, guid: 973131c9e003d95408445e2bfdc64a41, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071450657717784435, guid: 973131c9e003d95408445e2bfdc64a41, type: 3}
+      propertyPath: m_TagString
+      value: Selectable
       objectReference: {fileID: 0}
     - target: {fileID: 8071450657741140646, guid: 973131c9e003d95408445e2bfdc64a41, type: 3}
       propertyPath: m_Name
@@ -62442,8 +62496,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8071450657786945736, guid: 973131c9e003d95408445e2bfdc64a41, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.4300003
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8071450657786945737, guid: 973131c9e003d95408445e2bfdc64a41, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 05cafe069a0d05b43a2cfccf4ad823a5, type: 2}
     - target: {fileID: 8071450657786945739, guid: 973131c9e003d95408445e2bfdc64a41, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -62463,6 +62521,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8071450657407187718, guid: 973131c9e003d95408445e2bfdc64a41, type: 3}
   m_PrefabInstance: {fileID: 8071450656736896294}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8071450656736896296 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8071450657717784435, guid: 973131c9e003d95408445e2bfdc64a41, type: 3}
+  m_PrefabInstance: {fileID: 8071450656736896294}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &8071450656736896297
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8071450656736896296}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.27461284, y: 0.22393394, z: 0.3777728}
+  m_Center: {x: 0.019203752, y: -0.024927497, z: 0.039404154}
 --- !u!4 &8076428733345250823
 Transform:
   m_ObjectHideFlags: 0

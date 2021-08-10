@@ -15,7 +15,7 @@ public class Selection_Objects : MonoBehaviour
     {
         if(_selection != null)
         {
-            var selectionRenderer = _selection.GetComponent<Renderer>();
+            var selectionRenderer = _selection.GetComponentInChildren<Renderer>();
             selectionRenderer.material = defaultMaterils;
             _selection = null;
             
@@ -28,7 +28,7 @@ public class Selection_Objects : MonoBehaviour
             var selection = hit.transform;
             if(selection.CompareTag(selectionTag))
              {
-                var selectionRenderer = selection.GetComponent<Renderer>();
+                var selectionRenderer = selection.GetComponentInChildren<Renderer>();
                 if (selectionRenderer != null)
                 {
                     selectionRenderer.material = highlightMaterial;
