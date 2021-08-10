@@ -52,8 +52,8 @@ public class DragDrop : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHan
     }
     public void OnEndDrag(PointerEventData eventData)
     {
-        if (Mathf.Abs(Transform_Active_Cube.transform.localPosition.x - cube1.transform.localPosition.x) <= .1f &&
-            Transform_Active_Cube.transform.localPosition.y - cube1.transform.localPosition.y <= .1f)
+        if (Mathf.Abs(Transform_Active_Cube.transform.localPosition.x - cube1.transform.localPosition.x) <= .3f &&
+            Transform_Active_Cube.transform.localPosition.y - cube1.transform.localPosition.y <= .3f)
         {
             Transform_Active_Cube.transform.localPosition = new Vector3(cube1.transform.localPosition.x, cube1.transform.localPosition.y, cube1.transform.localPosition.z);
             canvasGroup.alpha = 0f;
@@ -64,7 +64,8 @@ public class DragDrop : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHan
         {
             Transform_Active_Cube.transform.localPosition = new Vector3(resetPosition.x, resetPosition.y, resetPosition.z);
             rectTransform.anchoredPosition = new Vector3(resetPosition.x, resetPosition.y, resetPosition.z);
-            canvasGroup.alpha = 1f;          
+            canvasGroup.alpha = 1f;
+            Transform_Active_Cube.SetActive(false);
         }
     }
 

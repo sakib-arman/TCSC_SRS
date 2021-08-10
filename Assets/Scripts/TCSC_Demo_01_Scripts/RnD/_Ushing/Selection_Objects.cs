@@ -18,11 +18,13 @@ public class Selection_Objects : MonoBehaviour
             var selectionRenderer = _selection.GetComponent<Renderer>();
             selectionRenderer.material = defaultMaterils;
             _selection = null;
+            
         }
         var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
         if(Physics.Raycast(ray,out hit))
         {
+            Logger.Log(hit);
             var selection = hit.transform;
             if(selection.CompareTag(selectionTag))
              {
