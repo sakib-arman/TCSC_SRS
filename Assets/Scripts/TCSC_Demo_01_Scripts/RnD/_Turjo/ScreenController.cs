@@ -10,7 +10,9 @@ public class ScreenController : MonoBehaviour
     public GameObject loginScreen;
     public GameObject modeSelectionScreen;
     public GameObject nonGuidedScreen;
+    public GameObject GuidedScreen;
     public GameObject EWScreen;
+    public GameObject profileScreen;
 
     public GameObject systemTypePanel;
     public GameObject narrativesPanel;
@@ -30,7 +32,9 @@ public class ScreenController : MonoBehaviour
         loginScreen.SetActive(false);
         modeSelectionScreen.SetActive(false);
         nonGuidedScreen.SetActive(false);
+        GuidedScreen.SetActive(false);
         EWScreen.SetActive(false);
+        profileScreen.SetActive(false);
     }
 
     public void Update()
@@ -46,7 +50,9 @@ public class ScreenController : MonoBehaviour
         loginScreen.SetActive(false);
         modeSelectionScreen.SetActive(false);
         nonGuidedScreen.SetActive(false);
+        GuidedScreen.SetActive(false);
         EWScreen.SetActive(false);
+        profileScreen.SetActive(false);
     }
 
     public void openRegistrationScreen()
@@ -57,7 +63,9 @@ public class ScreenController : MonoBehaviour
         loginScreen.SetActive(false);
         modeSelectionScreen.SetActive(false);
         nonGuidedScreen.SetActive(false);
+        GuidedScreen.SetActive(false);
         EWScreen.SetActive(false);
+        profileScreen.SetActive(false);
     }
 
     public void openRegistrationSuccessfullScreen()
@@ -68,7 +76,9 @@ public class ScreenController : MonoBehaviour
         loginScreen.SetActive(false);
         modeSelectionScreen.SetActive(false);
         nonGuidedScreen.SetActive(false);
+        GuidedScreen.SetActive(false);
         EWScreen.SetActive(false);
+        profileScreen.SetActive(false);
     }
     public void openLoginScreen()
     {
@@ -78,7 +88,9 @@ public class ScreenController : MonoBehaviour
         loginScreen.SetActive(true);
         modeSelectionScreen.SetActive(false);
         nonGuidedScreen.SetActive(false);
+        GuidedScreen.SetActive(false);
         EWScreen.SetActive(false);
+        profileScreen.SetActive(false);
     }
 
     public void openModeSelectionScreen()
@@ -91,9 +103,11 @@ public class ScreenController : MonoBehaviour
         loginScreen.SetActive(false);
         modeSelectionScreen.SetActive(true);
         nonGuidedScreen.SetActive(false);
+        GuidedScreen.SetActive(false);
         EWScreen.SetActive(false);
+        profileScreen.SetActive(false);
 
-        
+
     }
 
     public void openNonGuidedScreen()
@@ -104,7 +118,9 @@ public class ScreenController : MonoBehaviour
         loginScreen.SetActive(false);
         modeSelectionScreen.SetActive(false);
         nonGuidedScreen.SetActive(true);
+        GuidedScreen.SetActive(false);
         EWScreen.SetActive(false);
+        profileScreen.SetActive(false);
     }
 
     public void openEwScreen()
@@ -115,7 +131,34 @@ public class ScreenController : MonoBehaviour
         loginScreen.SetActive(false);
         modeSelectionScreen.SetActive(false);
         nonGuidedScreen.SetActive(false);
+        GuidedScreen.SetActive(false);
         EWScreen.SetActive(true);
+        profileScreen.SetActive(false);
+    }
+
+    public void openProfileScreen()
+    {
+        welcomeScreen.SetActive(false);
+        registrationScreen.SetActive(false);
+        registrationSuccessfullScreen.SetActive(false);
+        loginScreen.SetActive(false);
+        modeSelectionScreen.SetActive(false);
+        nonGuidedScreen.SetActive(false);
+        GuidedScreen.SetActive(false);
+        EWScreen.SetActive(false);
+        profileScreen.SetActive(true);
+    }
+    public void openGuidedScreen()
+    {
+        welcomeScreen.SetActive(false);
+        registrationScreen.SetActive(false);
+        registrationSuccessfullScreen.SetActive(false);
+        loginScreen.SetActive(false);
+        modeSelectionScreen.SetActive(false);
+        nonGuidedScreen.SetActive(false);
+        GuidedScreen.SetActive(true);
+        EWScreen.SetActive(false);
+        profileScreen.SetActive(false);
     }
 
     public void openAnalyzer()
