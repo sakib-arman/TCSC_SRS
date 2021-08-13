@@ -7890,7 +7890,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 374417761}
     m_Modifications:
     - target: {fileID: 763085308348068511, guid: 2b18e00f7c42c04419c493f386e97fe5, type: 3}
       propertyPath: m_Layer
@@ -7914,15 +7914,15 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 05cafe069a0d05b43a2cfccf4ad823a5, type: 2}
     - target: {fileID: 763085308556547242, guid: 2b18e00f7c42c04419c493f386e97fe5, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 763085308556547242, guid: 2b18e00f7c42c04419c493f386e97fe5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.14
+      value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: 763085308556547242, guid: 2b18e00f7c42c04419c493f386e97fe5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.41
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 763085308556547242, guid: 2b18e00f7c42c04419c493f386e97fe5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7958,11 +7958,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 763085308556547243, guid: 2b18e00f7c42c04419c493f386e97fe5, type: 3}
       propertyPath: m_Name
-      value: Barrett2090_RadioWithDockingStation
+      value: RadioWithDockingStation
       objectReference: {fileID: 0}
     - target: {fileID: 763085308556547243, guid: 2b18e00f7c42c04419c493f386e97fe5, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 763085308820585120, guid: 2b18e00f7c42c04419c493f386e97fe5, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -9962,6 +9962,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 374036216}
   m_CullTransparentMesh: 0
+--- !u!1 &374417759
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 374417761}
+  - component: {fileID: 374417760}
+  m_Layer: 0
+  m_Name: Barrett2090_RadioWithDockingStation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &374417760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374417759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f64b3fd1872b3ed4486717ad1f55a401, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+--- !u!4 &374417761
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374417759}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1610442228}
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &375391009
 GameObject:
   m_ObjectHideFlags: 0
@@ -30335,8 +30380,8 @@ Camera:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.68765575, g: 0.9528302, b: 0.9490953, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -30377,7 +30422,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.08715578, y: 0, z: 0, w: 0.9961947}
-  m_LocalPosition: {x: 0, y: 1.45, z: -6.6}
+  m_LocalPosition: {x: 0, y: 2.05, z: -6.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -44967,7 +45012,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: e6c0d9fc6ca1d544a8f370f2f435161d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -51881,6 +51926,11 @@ RectTransform:
 --- !u!1 &1610442227 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 763085308556547243, guid: 2b18e00f7c42c04419c493f386e97fe5, type: 3}
+  m_PrefabInstance: {fileID: 308934696}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1610442228 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 763085308556547242, guid: 2b18e00f7c42c04419c493f386e97fe5, type: 3}
   m_PrefabInstance: {fileID: 308934696}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1613044535
@@ -63828,7 +63878,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2002439904
 GameObject:
@@ -69369,11 +69419,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3399177745815168005, guid: b417baf352a53e549a04cf4d56635959, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 199.70218
+      value: 199.63617
       objectReference: {fileID: 0}
     - target: {fileID: 3399177745840055100, guid: b417baf352a53e549a04cf4d56635959, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 230.38666
+      value: 230.38669
       objectReference: {fileID: 0}
     - target: {fileID: 3399177745965655616, guid: b417baf352a53e549a04cf4d56635959, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

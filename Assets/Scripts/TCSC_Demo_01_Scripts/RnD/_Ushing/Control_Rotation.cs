@@ -8,12 +8,12 @@ public class Control_Rotation : MonoBehaviour
     private Quaternion startingRotation;
     public float speed = 10;
 
-    public Slider RotationSpeed;
-    float sliderValue;
+   // public Slider RotationSpeed;
+    //float sliderValue;
 
     void Start()
     {
-        RotationSpeed.onValueChanged.AddListener(delegate { valueChangecheck(); });
+       // RotationSpeed.onValueChanged.AddListener(delegate { valueChangecheck(); });
         //save the starting rotation
         startingRotation = this.transform.rotation;
     }
@@ -55,14 +55,14 @@ public class Control_Rotation : MonoBehaviour
 
         while (this.transform.rotation != finalRotation)
         {
-            this.transform.rotation = Quaternion.Lerp(this.transform.rotation, finalRotation, Time.deltaTime * (speed * sliderValue));
+            this.transform.rotation = Quaternion.Lerp(this.transform.rotation, finalRotation, Time.deltaTime * speed);
             
             yield return 0;
         }
     }
-    public void valueChangecheck()
-    {
-        sliderValue = RotationSpeed.value;
-        Debug.Log(RotationSpeed.value);
-    }
+    //public void valueChangecheck()
+    //{
+      //  sliderValue = RotationSpeed.value;
+      //  Debug.Log(RotationSpeed.value);
+    //}
 }
