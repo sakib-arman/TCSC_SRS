@@ -52,8 +52,8 @@ public class DragDrop : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHan
     }
     public void OnEndDrag(PointerEventData eventData)
     {
-        if (Mathf.Abs(Transform_Active_Cube.transform.localPosition.x - cube1.transform.localPosition.x) <= .8f &&
-            Transform_Active_Cube.transform.localPosition.y - cube1.transform.localPosition.y <= .8f)
+        if (Mathf.Abs(Transform_Active_Cube.transform.localPosition.x - cube1.transform.localPosition.x) <= .5f &&
+            Transform_Active_Cube.transform.localPosition.y - cube1.transform.localPosition.y <= .5f)
         {
             Transform_Active_Cube.transform.localPosition = new Vector3(cube1.transform.localPosition.x, cube1.transform.localPosition.y, cube1.transform.localPosition.z);
             canvasGroup.alpha = 0f;
