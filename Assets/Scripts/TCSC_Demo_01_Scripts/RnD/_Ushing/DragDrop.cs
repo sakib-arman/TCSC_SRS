@@ -10,7 +10,7 @@ public class DragDrop : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHan
     private CanvasGroup canvasGroup;
 
     public GameObject Deactive_Cube;
-    public GameObject Deactive_Image;
+   // public GameObject Deactive_Image;
 
     public GameObject Transform_Active_Cube;
     private Vector3 mOffset;
