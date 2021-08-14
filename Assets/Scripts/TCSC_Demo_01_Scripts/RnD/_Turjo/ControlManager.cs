@@ -64,6 +64,17 @@ public class ControlManager : MonoBehaviour
 
     int selected;
 
+    /// <summary>
+    /// guide sequence
+    /// </summary>
+
+    public GameObject pickRadio;
+    public GameObject pickAntenna;
+    public GameObject pickAccessories;
+
+    public GameObject selectAntenna;
+    public GameObject selectAccessories;
+
 
     private void Start()
     {
@@ -189,6 +200,9 @@ public class ControlManager : MonoBehaviour
 
         DocumentsPanel.SetActive(false);
 
+
+        selectAntenna.SetActive(false);
+        pickAntenna.SetActive(true);
         //EquipText.SetActive(false);
 
         //EquipText.SetActive(false);
@@ -211,6 +225,10 @@ public class ControlManager : MonoBehaviour
         AccessoriesPanel.SetActive(true);
 
         DocumentsPanel.SetActive(false);
+
+
+        selectAccessories.SetActive(false);
+        pickAccessories.SetActive(true);
 
         //EquipText.SetActive(false);
         //AntennaText.SetActive(false);

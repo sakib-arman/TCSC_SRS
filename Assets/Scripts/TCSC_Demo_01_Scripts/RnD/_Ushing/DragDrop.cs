@@ -15,12 +15,24 @@ public class DragDrop : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHan
     public GameObject Transform_Active_Cube;
     private Vector3 mOffset;
     private float mZCoord;
-
     private Vector3 resetPosition;
     public GameObject cube1;
 
+
+    public GameObject pickRadio;
+    public GameObject pickAntenna;
+    public GameObject pickAccessories;
+
+    public GameObject selectAntenna;
+    public GameObject selectAccessories;
+
+    public static int counter;
+
+   // public GameObject NextButton;
+
     private void Start()
     {
+        //counter = 0;
         resetPosition = Transform_Active_Cube.transform.localPosition;
     }
 
@@ -58,6 +70,27 @@ public class DragDrop : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHan
             Transform_Active_Cube.transform.localPosition = new Vector3(cube1.transform.localPosition.x, cube1.transform.localPosition.y, cube1.transform.localPosition.z);
             canvasGroup.alpha = 0f;
             Deactive_Cube.SetActive(false);
+
+            ////turzo/////
+            if(counter==0)
+            {
+                pickRadio.SetActive(false);
+                selectAntenna.SetActive(true);
+                counter++;
+            }
+            else if(counter==1)
+            {
+                pickAntenna.SetActive(false);
+                selectAccessories.SetActive(true);
+                counter++;
+            }
+
+            else if(counter==2)
+            {
+                pickAccessories.SetActive(false);
+                //NextButton.SetActive(true);
+            }
+
             
         }
         else
@@ -68,5 +101,10 @@ public class DragDrop : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHan
             Transform_Active_Cube.SetActive(false);
         }
     }
+
+    //public void showHideGuide(int )
+    //{
+
+    //}
 
 }
