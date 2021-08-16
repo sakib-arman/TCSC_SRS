@@ -22,9 +22,24 @@ public class DragDrop : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHan
     public GameObject pickRadio;
     public GameObject pickAntenna;
     public GameObject pickAccessories;
+    public GameObject pickHandsetAccessories;
 
     public GameObject selectAntenna;
     public GameObject selectAccessories;
+
+    public GameObject handsetArrow;
+
+    //Texts
+    public GameObject DragRadio;
+    public GameObject PressB;
+    public GameObject SelectAnteena;
+    public GameObject SelectVehicleAntenna;
+    public GameObject DragAntenna;
+    public GameObject SelectAccessoriesText;
+    public GameObject DragCableHead;
+    public GameObject pressF;
+    public GameObject DragHeadSet;
+
 
     public static int counter;
 
@@ -75,20 +90,35 @@ public class DragDrop : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHan
             if(counter==0)
             {
                 pickRadio.SetActive(false);
-                selectAntenna.SetActive(true);
+                //selectAntenna.SetActive(true);
+                DragRadio.SetActive(false);
+                PressB.SetActive(true);
                 counter++;
             }
             else if(counter==1)
             {
                 pickAntenna.SetActive(false);
+                DragAntenna.SetActive(false);
                 selectAccessories.SetActive(true);
+                SelectAccessoriesText.SetActive(true);
                 counter++;
             }
 
             else if(counter==2)
             {
                 pickAccessories.SetActive(false);
+                //pickHandsetAccessories.SetActive(true);
+                DragCableHead.SetActive(false);
+                pressF.SetActive(true);
+
                 //NextButton.SetActive(true);
+            }
+
+            else if(counter==3)
+            {
+                DragHeadSet.SetActive(false);
+                pickHandsetAccessories.SetActive(false);
+                handsetArrow.SetActive(false);
             }
 
             
