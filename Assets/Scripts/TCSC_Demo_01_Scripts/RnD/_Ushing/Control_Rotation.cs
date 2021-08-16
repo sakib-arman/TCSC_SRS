@@ -8,8 +8,21 @@ public class Control_Rotation : MonoBehaviour
     private Quaternion startingRotation;
     public float speed = 10;
 
-   // public Slider RotationSpeed;
+    // public Slider RotationSpeed;
     //float sliderValue;
+
+
+    //turzo
+    public GameObject SelectAnteena;
+    public GameObject DragHeadSet;
+
+    public GameObject pickHandSetAccessoriesArrow;
+
+    public GameObject pressB;
+    public GameObject pressF;
+
+
+    public GameObject SelectAntennaArrow;
 
     void Start()
     {
@@ -25,6 +38,9 @@ public class Control_Rotation : MonoBehaviour
         {
             StopAllCoroutines();
             StartCoroutine(Rotate(0));
+            pressF.SetActive(false);
+            DragHeadSet.SetActive(true);
+            pickHandSetAccessoriesArrow.SetActive(true);
         }
 
         //go to 90 degrees with right arrow
@@ -37,6 +53,9 @@ public class Control_Rotation : MonoBehaviour
         {
             StopAllCoroutines();
             StartCoroutine(Rotate(180));
+            pressB.SetActive(false);
+            SelectAnteena.SetActive(true);
+            SelectAntennaArrow.SetActive(true);
         }
 
         //go to -90 degrees with left arrow

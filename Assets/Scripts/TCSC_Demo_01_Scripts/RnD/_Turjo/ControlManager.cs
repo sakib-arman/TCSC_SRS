@@ -74,6 +74,15 @@ public class ControlManager : MonoBehaviour
 
     public GameObject selectAntenna;
     public GameObject selectAccessories;
+    public GameObject selectVehicleAntenna;
+
+    public GameObject SelectAnteenaText;
+    public GameObject SelectVehicleAntennaText;
+    public GameObject DragAntennaText;
+
+    public GameObject selectAccessoriesText;
+    public GameObject DragCableHeadText;
+    public GameObject DragHeadSetText;
 
 
     private void Start()
@@ -202,7 +211,10 @@ public class ControlManager : MonoBehaviour
 
 
         selectAntenna.SetActive(false);
-        pickAntenna.SetActive(true);
+        SelectAnteenaText.SetActive(false);
+        selectVehicleAntenna.SetActive(true);
+        SelectVehicleAntennaText.SetActive(true);
+        
         //EquipText.SetActive(false);
 
         //EquipText.SetActive(false);
@@ -230,10 +242,10 @@ public class ControlManager : MonoBehaviour
         selectAccessories.SetActive(false);
         pickAccessories.SetActive(true);
 
-        //EquipText.SetActive(false);
-        //AntennaText.SetActive(false);
-        //accessText.SetActive(true);
-        //docuText.SetActive(false);
+        selectAccessoriesText.SetActive(false);
+        DragCableHeadText.SetActive(true);
+
+
     }
 
     public void documentShow()
@@ -289,6 +301,10 @@ public class ControlManager : MonoBehaviour
         AntennaHolderBase.SetActive(false);
         AntennaHolderVehicle.SetActive(true);
         AntennaHolderManpack.SetActive(false);
+        selectVehicleAntenna.SetActive(false);
+        pickAntenna.SetActive(true);
+        DragAntennaText.SetActive(true);
+        SelectVehicleAntennaText.SetActive(false);
     }
     public void ManpackHolderShow()
     {
