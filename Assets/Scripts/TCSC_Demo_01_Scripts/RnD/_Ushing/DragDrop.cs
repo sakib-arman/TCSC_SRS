@@ -102,6 +102,9 @@ public class DragDrop : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHan
                 selectAccessories.SetActive(true);
                 SelectAccessoriesText.SetActive(true);
                 counter++;
+                /// Using Vai blink off//
+                /// 
+
             }
 
             else if(counter==2)
@@ -110,7 +113,7 @@ public class DragDrop : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHan
                 //pickHandsetAccessories.SetActive(true);
                 DragCableHead.SetActive(false);
                 pressF.SetActive(true);
-
+                counter++;
                 //NextButton.SetActive(true);
             }
 
