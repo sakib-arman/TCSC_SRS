@@ -61,6 +61,15 @@ public class ControlManager : MonoBehaviour
     GameObject MDFbutton;
     [SerializeField]
     GameObject jammerButton;
+    //RF show
+    [SerializeField] GameObject blink_ObjectsOn;
+    [SerializeField] GameObject blink_Objectsoff;
+
+    //accessoriesShoiw down
+    [SerializeField]
+    GameObject blink_ObjectsOn_1;
+    [SerializeField]
+    GameObject blink_Objectsoff_1;
 
     int selected;
 
@@ -248,6 +257,9 @@ public class ControlManager : MonoBehaviour
         selectAccessoriesText.SetActive(false);
         DragCableHeadText.SetActive(true);
 
+        blink_ObjectsOn_1.SetActive(true);
+        blink_Objectsoff_1.SetActive(false);
+
 
     }
 
@@ -309,9 +321,11 @@ public class ControlManager : MonoBehaviour
         DragAntennaText.SetActive(true);
         SelectVehicleAntennaText.SetActive(false);
 
-        ///////Yshing vai blink code//
+        ///////Ushing blink code//
         ///
-
+        blink_ObjectsOn.SetActive(true);
+        blink_Objectsoff.SetActive(false);
+        Debug.Log("Active");
     }
     public void ManpackHolderShow()
     {

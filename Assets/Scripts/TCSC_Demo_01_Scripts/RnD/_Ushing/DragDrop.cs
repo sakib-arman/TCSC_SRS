@@ -17,6 +17,13 @@ public class DragDrop : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHan
     private float mZCoord;
     private Vector3 resetPosition;
     public GameObject cube1;
+   
+
+    //blink objects
+
+    [SerializeField] GameObject blink_Objectsoff;
+    [SerializeField] GameObject blink_ObjectsOn;
+    public GameObject handsetActive;
 
 
     public GameObject pickRadio;
@@ -104,7 +111,8 @@ public class DragDrop : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHan
                 counter++;
                 /// Using Vai blink off//
                 /// 
-
+                blink_Objectsoff.SetActive(true);
+                blink_ObjectsOn.SetActive(false);
             }
 
             else if(counter==2)
@@ -114,6 +122,8 @@ public class DragDrop : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHan
                 DragCableHead.SetActive(false);
                 pressF.SetActive(true);
                 counter++;
+                handsetActive.SetActive(true);
+                Debug.Log("Active_1");
                 //NextButton.SetActive(true);
             }
 
