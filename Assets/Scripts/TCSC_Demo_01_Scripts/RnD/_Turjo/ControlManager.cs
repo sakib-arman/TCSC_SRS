@@ -85,6 +85,9 @@ public class ControlManager : MonoBehaviour
     public GameObject DragHeadSetText;
 
 
+    
+
+
     private void Start()
     {
         dropDownPanel.SetActive(false);
@@ -305,6 +308,10 @@ public class ControlManager : MonoBehaviour
         pickAntenna.SetActive(true);
         DragAntennaText.SetActive(true);
         SelectVehicleAntennaText.SetActive(false);
+
+        ///////Yshing vai blink code//
+        ///
+
     }
     public void ManpackHolderShow()
     {
