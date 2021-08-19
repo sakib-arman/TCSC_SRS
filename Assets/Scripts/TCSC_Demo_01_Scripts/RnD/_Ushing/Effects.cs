@@ -22,8 +22,8 @@ public class Effects : MonoBehaviour
     {
         if (_canRepeat)
         {
+            // color Blink
             float fraction = Mathf.PingPong((Time.time - startTime), (_lerpTime * _speed));
-            //transform.localScale = Vector3.Lerp(_startScale, _endScale, fraction);
             transform.GetComponentInChildren<Renderer>().material.color = Color.Lerp(_startColor, _endColor, fraction);
         }
         else

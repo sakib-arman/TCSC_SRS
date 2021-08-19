@@ -47,6 +47,11 @@ public class DragDrop : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHan
     public GameObject pressF;
     public GameObject DragHeadSet;
 
+    //antenna Wire
+    //power wire
+    public GameObject RF_Port;
+    public GameObject Power_Port;
+
 
     public static int counter;
 
@@ -63,6 +68,7 @@ public class DragDrop : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHan
         rectTransform = GetComponent<RectTransform>();
         canvasGroup = GetComponent<CanvasGroup>();
     }
+    // dragable UI components
     public void OnBeginDrag(PointerEventData eventData)
     {
         Transform_Active_Cube.SetActive(true);
@@ -70,13 +76,16 @@ public class DragDrop : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHan
         mZCoord = Camera.main.WorldToScreenPoint(Transform_Active_Cube.transform.position).z;
         mOffset = Transform_Active_Cube.transform.position - getmoueWoeldPos();
     }
-
+    // dragable object move from UI
     public void OnDrag(PointerEventData eventData)
     {
 
         rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
         Transform_Active_Cube.transform.position = getmoueWoeldPos() + mOffset;
         canvasGroup.alpha = 0f;
+
+        RF_Port.SetActive(true);
+        
     }
     private Vector3 getmoueWoeldPos()
     {
@@ -84,8 +93,9 @@ public class DragDrop : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHan
         mousePoint.z = mZCoord;
         return Camera.main.ScreenToWorldPoint(mousePoint);
     }
+    
     public void OnEndDrag(PointerEventData eventData)
-    {
+    {  // dragable objects in the correct point
         if (Mathf.Abs(Transform_Active_Cube.transform.localPosition.x - cube1.transform.localPosition.x) <= .5f &&
             Transform_Active_Cube.transform.localPosition.y - cube1.transform.localPosition.y <= .5f)
         {
@@ -113,6 +123,7 @@ public class DragDrop : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHan
                 /// 
                 blink_Objectsoff.SetActive(true);
                 blink_ObjectsOn.SetActive(false);
+                Power_Port.SetActive(true);
             }
 
             else if(counter==2)
@@ -136,6 +147,7 @@ public class DragDrop : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHan
 
             
         }
+        // dragable objects in the by reset position
         else
         {
             Transform_Active_Cube.transform.localPosition = new Vector3(resetPosition.x, resetPosition.y, resetPosition.z);
