@@ -23,10 +23,19 @@ public class ControlManager : MonoBehaviour
 
     [SerializeField]
     GameObject equipmentHolderRadio;
+
+
+
     [SerializeField]
     GameObject equipmentHolderRR;
     [SerializeField]
     GameObject equipmentHolderMicro;
+
+    [SerializeField]
+    GameObject equipmentHolderTest;
+    [SerializeField]
+    GameObject equipmentHolderPower;
+
     [SerializeField]
     GameObject AntennaHolderBase;
     [SerializeField]
@@ -290,19 +299,44 @@ public class ControlManager : MonoBehaviour
         equipmentHolderRadio.SetActive(true);
         equipmentHolderRR.SetActive(false);
         equipmentHolderMicro.SetActive(false);
+        equipmentHolderTest.SetActive(false);
+        equipmentHolderPower.SetActive(false);
     }
     public void RRHolderShow()
     {
         equipmentHolderRadio.SetActive(false);
         equipmentHolderRR.SetActive(true);
         equipmentHolderMicro.SetActive(false);
+        equipmentHolderTest.SetActive(false);
+        equipmentHolderPower.SetActive(false);
     }
     public void MicroHolderShow()
     {
         equipmentHolderRadio.SetActive(false);
         equipmentHolderRR.SetActive(false);
         equipmentHolderMicro.SetActive(true);
+        equipmentHolderTest.SetActive(false);
+        equipmentHolderPower.SetActive(false);
     }
+
+    public void TestoHolderShow()
+    {
+        equipmentHolderRadio.SetActive(false);
+        equipmentHolderRR.SetActive(false);
+        equipmentHolderMicro.SetActive(false);
+        equipmentHolderTest.SetActive(true);
+        equipmentHolderPower.SetActive(false);
+    }
+
+    public void PowerHolderShow()
+    {
+        equipmentHolderRadio.SetActive(false);
+        equipmentHolderRR.SetActive(false);
+        equipmentHolderMicro.SetActive(false);
+        equipmentHolderTest.SetActive(false);
+        equipmentHolderPower.SetActive(true);
+    }
+
 
     public void BaseHolderShow()
     {
