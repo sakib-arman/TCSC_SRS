@@ -49,8 +49,8 @@ public class DragDrop : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHan
 
     //antenna Wire
     //power wire
-    public GameObject RF_Port;
-    public GameObject Power_Port;
+   // public GameObject RF_Port;
+   // public GameObject Power_Port;
 
 
     public static int counter;
@@ -84,8 +84,10 @@ public class DragDrop : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHan
         Transform_Active_Cube.transform.position = getmoueWoeldPos() + mOffset;
         canvasGroup.alpha = 0f;
 
-        RF_Port.SetActive(true);
-        
+       // RF_Port.SetActive(true);
+       // Power_Port.SetActive(true);
+       // Debug.Log("PortActive");
+
     }
     private Vector3 getmoueWoeldPos()
     {
@@ -123,7 +125,7 @@ public class DragDrop : MonoBehaviour,IBeginDragHandler,IEndDragHandler,IDragHan
                 /// 
                 blink_Objectsoff.SetActive(true);
                 blink_ObjectsOn.SetActive(false);
-                Power_Port.SetActive(true);
+               
             }
 
             else if(counter==2)

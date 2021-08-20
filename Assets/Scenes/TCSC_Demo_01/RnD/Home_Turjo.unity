@@ -466,8 +466,6 @@ MonoBehaviour:
   DragCableHead: {fileID: 1687471163}
   pressF: {fileID: 720738875}
   DragHeadSet: {fileID: 1600772697}
-  RF_Port: {fileID: 6142635066545513662}
-  Power_Port: {fileID: 0}
 --- !u!225 &3874331
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -10704,7 +10702,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &374417760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10731,8 +10729,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 374417759}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.35344934, y: 0.049999952, z: 0.7010503}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -1.14, y: -2.41, z: -2.200012}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1610442228}
@@ -10740,7 +10738,7 @@ Transform:
   - {fileID: 2088353599}
   m_Father: {fileID: 0}
   m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &375391009
 GameObject:
   m_ObjectHideFlags: 0
@@ -11966,7 +11964,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 427211484}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.35, y: -3.37, z: -5.54}
+  m_LocalPosition: {x: -8.35, y: -3.1799998, z: -5.54}
   m_LocalScale: {x: 0.93976, y: 1, z: 1}
   m_Children:
   - {fileID: 922290838}
@@ -50521,8 +50519,6 @@ MonoBehaviour:
   DragCableHead: {fileID: 1687471163}
   pressF: {fileID: 720738875}
   DragHeadSet: {fileID: 1600772697}
-  RF_Port: {fileID: 0}
-  Power_Port: {fileID: 0}
 --- !u!1 &1510359521
 GameObject:
   m_ObjectHideFlags: 0
@@ -61222,8 +61218,6 @@ MonoBehaviour:
   DragCableHead: {fileID: 1687471163}
   pressF: {fileID: 720738875}
   DragHeadSet: {fileID: 1600772697}
-  RF_Port: {fileID: 0}
-  Power_Port: {fileID: 0}
 --- !u!225 &1802858689
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -64357,7 +64351,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5975275762534878395, guid: 5364f20ad74a81a44864ac25af309275, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.13
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 5975275762534878395, guid: 5364f20ad74a81a44864ac25af309275, type: 3}
       propertyPath: m_LocalPosition.z
@@ -70256,7 +70250,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5489457374732902231, guid: ac87ac9c411cc0c49ad3e261d9b31904, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac87ac9c411cc0c49ad3e261d9b31904, type: 3}
@@ -72224,8 +72218,6 @@ MonoBehaviour:
   DragCableHead: {fileID: 1687471163}
   pressF: {fileID: 720738875}
   DragHeadSet: {fileID: 1600772697}
-  RF_Port: {fileID: 0}
-  Power_Port: {fileID: 427211484}
 --- !u!225 &2134830283
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -74758,7 +74750,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3399177745815168005, guid: b417baf352a53e549a04cf4d56635959, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 199.63615
+      value: 199.63614
       objectReference: {fileID: 0}
     - target: {fileID: 3399177745823097695, guid: b417baf352a53e549a04cf4d56635959, type: 3}
       propertyPath: m_Color.b
@@ -75647,7 +75639,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &5998688349250091117
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -76024,7 +76016,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6142635066367357293
 Transform:
   m_ObjectHideFlags: 0
