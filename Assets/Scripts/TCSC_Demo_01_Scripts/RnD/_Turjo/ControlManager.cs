@@ -169,12 +169,16 @@ public class ControlManager : MonoBehaviour
             EWpanel.SetActive(true);
             isOn2 = false;
             PlayerPrefs.SetInt("selectedType", 0);
+            narrativesPanel.SetActive(false);
+            isOn3 = true;
         }
         else
         {
             EWpanel.SetActive(false);
             isOn2 = true;
             PlayerPrefs.SetInt("selectedType", 0);
+            narrativesPanel.SetActive(false);
+            isOn3 = true;
         }
     }
     public void DropDownNarrative()
@@ -183,11 +187,15 @@ public class ControlManager : MonoBehaviour
         {
             narrativesPanel.SetActive(true);
             isOn3 = false;
+            EWpanel.SetActive(false);
+            isOn2 = true;
         }
         else
         {
             narrativesPanel.SetActive(false);
             isOn3 = true;
+            EWpanel.SetActive(false);
+            isOn2 = true;
         }
     }
 
