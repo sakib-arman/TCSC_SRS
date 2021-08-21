@@ -148,6 +148,18 @@ public class ScreenController : MonoBehaviour
         EWScreen.SetActive(false);
         profileScreen.SetActive(true);
     }
+    public void closeProfileScreen()
+    {
+        welcomeScreen.SetActive(false);
+        registrationScreen.SetActive(false);
+        registrationSuccessfullScreen.SetActive(false);
+        loginScreen.SetActive(false);
+        modeSelectionScreen.SetActive(true);
+        nonGuidedScreen.SetActive(false);
+        GuidedScreen.SetActive(false);
+        EWScreen.SetActive(false);
+        profileScreen.SetActive(false);
+    }
     public void openGuidedScreen()
     {
         welcomeScreen.SetActive(false);
@@ -167,10 +179,22 @@ public class ScreenController : MonoBehaviour
         MDFpanel.SetActive(false);
         jammerPanel.SetActive(false);
     }
+    public void closeAnalyzer()
+    {
+        AnalyzerPanel.SetActive(false);
+        MDFpanel.SetActive(false);
+        jammerPanel.SetActive(false);
+    }
     public void openMDF()
     {
         AnalyzerPanel.SetActive(false);
         MDFpanel.SetActive(true);
+        jammerPanel.SetActive(false);
+    }
+    public void closeMDF()
+    {
+        AnalyzerPanel.SetActive(false);
+        MDFpanel.SetActive(false);
         jammerPanel.SetActive(false);
     }
     public void openJammer()
@@ -178,6 +202,12 @@ public class ScreenController : MonoBehaviour
         AnalyzerPanel.SetActive(false);
         MDFpanel.SetActive(false);
         jammerPanel.SetActive(true);
+    }
+    public void closeJammer()
+    {
+        AnalyzerPanel.SetActive(false);
+        MDFpanel.SetActive(false);
+        jammerPanel.SetActive(false);
     }
 
     public void nextButtonFunction()

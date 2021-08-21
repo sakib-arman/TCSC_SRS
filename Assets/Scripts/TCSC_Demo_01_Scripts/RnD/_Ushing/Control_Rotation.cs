@@ -24,6 +24,9 @@ public class Control_Rotation : MonoBehaviour
 
     public GameObject SelectAntennaArrow;
 
+    int counter1 = 1;
+    int counter2 = 1;
+
     void Start()
     {
        // RotationSpeed.onValueChanged.AddListener(delegate { valueChangecheck(); });
@@ -38,9 +41,14 @@ public class Control_Rotation : MonoBehaviour
         {
             StopAllCoroutines();
             StartCoroutine(Rotate(0));
-            pressF.SetActive(false);
-            DragHeadSet.SetActive(true);
-            pickHandSetAccessoriesArrow.SetActive(true);
+            if(counter1==1)
+            {
+                pressF.SetActive(false);
+                DragHeadSet.SetActive(true);
+                pickHandSetAccessoriesArrow.SetActive(true);
+                counter1++;
+            }
+
         }
 
         //go to 90 degrees with right arrow
@@ -53,9 +61,14 @@ public class Control_Rotation : MonoBehaviour
         {
             StopAllCoroutines();
             StartCoroutine(Rotate(180));
-            pressB.SetActive(false);
-            SelectAnteena.SetActive(true);
-            SelectAntennaArrow.SetActive(true);
+            if(counter2==1)
+            {
+                pressB.SetActive(false);
+                SelectAnteena.SetActive(true);
+                SelectAntennaArrow.SetActive(true);
+                counter2++;
+            }
+
         }
 
         //go to -90 degrees with left arrow
