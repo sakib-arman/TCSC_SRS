@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TCSC_Demo_01/RnD/Home_Turjo.unity
+    guid: 66838a2618de7e54781534c0fd42d14a
   m_configObjects: {}

@@ -26,12 +26,12 @@ public class ScreenController : MonoBehaviour
     void Start()
     {
         
-        welcomeScreen.SetActive(true);
+        welcomeScreen.SetActive(false);
         registrationScreen.SetActive(false);
         registrationSuccessfullScreen.SetActive(false);
         loginScreen.SetActive(false);
         modeSelectionScreen.SetActive(false);
-        nonGuidedScreen.SetActive(false);
+        nonGuidedScreen.SetActive(true);
         GuidedScreen.SetActive(false);
         EWScreen.SetActive(false);
         profileScreen.SetActive(false);
